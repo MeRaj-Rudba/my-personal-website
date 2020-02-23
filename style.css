@@ -1,0 +1,65 @@
+body{
+    font-family: 'Comfortaa',sans-serif ;
+    font-weight: normal;
+    margin: 0px;
+}
+.bold-text{
+    color: #E60048;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+
+h1{
+   font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Poiret One',serif ;
+    font-weight: bold;
+    color: dimgray;
+    text-align: justify;
+    font-size: 30px;
+}
+
+
+section{
+    height: 800px;
+    
+}
+.top-section{ 
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.mid-section{ 
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 80%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, blueViolet,purple);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+
+}
