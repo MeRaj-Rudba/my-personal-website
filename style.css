@@ -16,6 +16,9 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 35px;
+}
 
 p{
     font-family: 'Poiret One',serif ;
@@ -27,7 +30,7 @@ p{
 
 
 section{
-    height: 800px;
+    height: 1073px;
     
 }
 .top-section{ 
@@ -38,8 +41,25 @@ section{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
 }
+.latest-work-section{
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.footer-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;  
+}
+.full-width{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+}
 
 .half-width{
+    padding-top: 100px;
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -49,17 +69,61 @@ section{
 .half-width img{
     width: 80%;
 }
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+.one-third-width img{
+    width:80%;
 
+}
+.full-width p{
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 footer p{
     text-align: center;
     font-size: 14px;
+    padding-top: 200px;
+    
+    
 }
+
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient( 45deg, blueViolet,purple);
+    background-color: #E60048 ;
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
     font-weight: 700;
 
+}
+.contact-button{
+    margin-top: 100px;
+    text-decoration: none;
+    background-color:#E60048 ;
+    
+    padding: 20px 60px;
+    border-radius: 10px;
+    color: white;
+    
+
+}
+.contact-button p{
+    color: white;
+    width: 80%;
+}
+#client-designation{
+    font-weight: lighter;
+    font-size: 22px ;
+}
+#client-name{
+    color: #E60048 ;
+    font-size: 40px ;  
 }
